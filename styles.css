@@ -44,17 +44,19 @@ body {
   font-size: 1.5em;
   margin-right: 2em;
   position: relative;
+  display: inline-block;
+  padding: 10px;
 }
 
 .nav-link::after {
     content: ''; 
     position: absolute; 
-    width: 100%;
-    height: 3px; 
+    width: calc(100% + 40px);
+    height: calc(100% + 40px); 
     background: url('Images/linkCircle.png') no-repeat center center; 
-    background-size: 100% 100%;
-    left: 0; 
-    bottom: -5px; 
+    background-size: contain;
+    left: -16px; 
+    bottom: -16px; 
     opacity: 0; 
     transition: opacity 0.3s; 
 }
