@@ -120,7 +120,7 @@ body {
     background-repeat: no-repeat; 
     background-position: center;
     padding: 5px; 
-    width: 500px; 
+    width: 450px; 
     height: 450px; 
     box-sizing: border-box; 
     display: flex;
@@ -158,42 +158,105 @@ body {
     overflow: hidden;
     padding: 0.5em;
     margin: 0.5em;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
-
-
 .card-image {
-
     width: 100%;
     height: auto;
     border: 2px solid #e6e9e9;
+    border-radius: 4px;
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    display: none; 
+}
+
+.card-image:hover .tooltip {
+    display: block; 
+}
+
+.tooltip-text {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card-title {
+
+    color: #e6e9e9;
+    font-family: "Coming Soon", cursive;
+    display: block;
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+
 }
 
 .card-content {
-    padding: 12px;
+    
     display: flex;
+    padding: 12px;
     margin: 0 auto;
     justify-content: space-evenly;
+    gap: 1em;
+
     
 
 }
 
 
+
+.line {
+    max-width: 85%;
+}
+
+
+
+
+
+
+
 .card-link {
     display: inline-block;
-    font-size: 1em;
+    font-size: 2em;
     margin-top: 0;
     color: #e6e9e9;
     text-decoration: none;
     font-family: "Jost", sans-serif;
-    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
     
 
 }
 
 .card-link:hover {
-    text-decoration: underline;
+    background: url('/Images/linkCircle.png') no-repeat center center;
+    background-size: contain;
+    transition: 0.3s ease-in-out;
 }
 
 
