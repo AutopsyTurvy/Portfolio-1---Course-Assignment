@@ -11,6 +11,7 @@
 
 
     <link rel="stylesheet" href="styles.css">
+    <script defer src="/scriptFiles/detailsDropdown.js"></script>
 
     <title>Kitty Alice- Portfolio</title>
 </head>
@@ -25,7 +26,6 @@
     <div class="nav-links">
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="pages/aboutMe.html">About</a>
-        <a class="nav-link" href="pages/allProjects.html">All Projects</a>
         <a href="https://github.com/AutopsyTurvy" class="nav-link">Github Profile</a>
     </div>
 </div>
@@ -34,44 +34,31 @@
 
 <hr class="line">
 
-
-    
-<h2 class="up-to-header">Here's what I've been up to recently:</h2>
-
+<div class="h2-container">
+<h2 class="Projects-so-far-header">Here's what I've been up to this year:</h2>
+</div>   
 
 
 
 <div class="cards-container">
 
-    
-
-
-    <video class="video" width="100%" height="auto" autoplay loop muted>
-        <source src="https://portfolio-bubby-and-i.s3.amazonaws.com/Dream 3-2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-
-
-
-    <div class="sticky-note-image">
-        <div class="card">
-            <div class="link-container">
-                <a href="https://the-lore-of-pour.netlify.app" class="card-link">
-                    <img src="/Images/theLoreOfPour.jpeg" alt="Screenshot of The Lore of Pour Blog" class="card-image">
-                </a>
-                <div class="module">
-                    <p class="module-text">pending paragraph for my module</p>
+        <div class="sticky-note-image">
+            <div class="card">
+                <div class="link-container">
+                    <a href="https://the-lore-of-pour.netlify.app" class="card-link">
+                        <img src="/Images/theLoreOfPour.jpeg" alt="Screenshot of The Lore of Pour Blog" class="card-image">
+                    </a>
+                </div>
+                <p class="card-title">The Lore of Pour</p>
+                <div class="card-content">
+                    <a href="https://the-lore-of-pour.netlify.app" class="card-link">Netlify</a>
+                    <button class="details-button">Details</button>
+                    <a href="https://github.com/AutopsyTurvy/The-Lore-of-Pour--Project-Exam-1.git" class="card-link">GitHub</a>
                 </div>
             </div>
-            <p class="card-title">The Lore of Pour</p>
-            <div class="card-content">
-                <a href="https://the-lore-of-pour.netlify.app" class="card-link">Netlify</a>
-                <a href="https://github.com/AutopsyTurvy/The-Lore-of-Pour--Project-Exam-1.git" class="card-link">GitHub</a>
-            </div>
         </div>
-    </div>
-
+    
+        <div id="image-placeholder"></div>
 
 <div class="sticky-note-image-2">
     <div class="card">
@@ -81,6 +68,7 @@
         <div class="card-content">
             
             <a href="https://melodious-griffin-3e41f3.netlify.app" class="card-link">Netlify</a>
+            <button class="details-button-2">Details</button>
             <a href="https://github.com/AutopsyTurvy/CommunityScienceMuseum.git" class="card-link">GitHub</a>
         </div>
     </div>
@@ -95,12 +83,21 @@
         <div class="card-content">
             
             <a href="https://celebrated-platypus-88cfdb.netlify.app" class="card-link">Netlify</a>
+            <button class="details-button-3">Details</button>
             <a href="https://github.com/AutopsyTurvy/GameHub-KittyAliceCase.git" class="card-link">GitHub</a>
         </div>
     </div>
 </div>
+</div>
 
 
+
+
+
+<video class="video" width="100%" height="auto" autoplay loop muted>
+    <source src="https://portfolio-bubby-and-i.s3.amazonaws.com/Dream 3-2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
     
 </body>
 </html>
