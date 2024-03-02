@@ -67,13 +67,14 @@ body {
 
 
 .nav-link {
+
+  position: relative;  
   text-decoration: none;
   color: #e6e9e9;
   font-family: "Jost", sans-serif;
   margin-left: 2em;
   font-size: 1.5em;
   margin-right: 2em;
-  position: relative;
   display: inline-block;
   padding: 0 10px;
 }
@@ -112,7 +113,25 @@ body {
     }
   
     .nav-link {
-      padding: 10px 0; 
+        position: relative;
+        padding: 10px 0; 
+    }
+
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        width: calc(100% + 40px); 
+        height: calc(100% + 40px); 
+        background: url('/Images/linkCircle.png') no-repeat center center;
+        background-size: contain;
+        left: -20px; 
+        bottom: -20px; 
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .nav-link:hover::after, .nav-link:focus::after {
+        opacity: 1;
     }
   
     .nav-links.active {
@@ -150,10 +169,17 @@ body {
     max-width: 85%;
 }
 
+
+
 .h2-container {
     display: flex;
-    align-content: center;
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
 }
+
+
+
 
 .Projects-so-far-header {
 
@@ -164,8 +190,8 @@ body {
 }
 
 
-.video {
 
+.video {
     right: 0;
     bottom: 0;
     top: 0;
@@ -173,7 +199,6 @@ body {
     height: auto;
     width: 100%;
     padding: 0;
-   
 }
 
 
@@ -192,6 +217,7 @@ body {
 }
 
 
+
 @media (max-width: 1200px) { 
 
     .cards-container {
@@ -202,7 +228,6 @@ body {
         align-self: center;
         align-content: center;
     }
-  
 }
 
 
