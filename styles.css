@@ -130,10 +130,14 @@ body {
         transition: opacity 0.3s;
     }
 
+
+
     .nav-link:hover::after, .nav-link:focus::after {
         opacity: 1;
     }
   
+
+    
     .nav-links.active {
       display: flex;
     }
