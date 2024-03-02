@@ -137,7 +137,7 @@ body {
     }
   
 
-    
+
     .nav-links.active {
       display: flex;
     }
@@ -359,6 +359,8 @@ body {
     background-color: #292c2e;
   }
 
+
+
   .details-button:hover, .details-button-2:hover, .details-button-3:hover {
     background: url('/Images/linkCircle.png') no-repeat center center;
     background-size: contain;
@@ -366,9 +368,52 @@ body {
   }
 
 
-.dropdown-image {
-    width: 21em;
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.2);
 }
+
+
+.modal-content {
+
+    background-color: #292c2e;
+    margin: 15% auto;
+    padding: 10px;
+    border: 1px solid #e6e9e9;
+    width: 80%;
+}
+
+.close-button {
+    color: #e6e9e9;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    border: 1px solid #e6e9e9;
+    padding: 1px 6px;
+}
+
+
+.close-button:hover,
+.close-button:focus {
+
+    color:#292c2e;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #e6e9e9;
+
+}
+
+
+
+
 
 
 

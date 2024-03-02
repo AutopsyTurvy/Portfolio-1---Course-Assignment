@@ -1,35 +1,24 @@
 
 
 
-
+// Trying a modal instead of a dropdown image..
 
 // detailsDropdown.js :
 
+var modal = document.getElementById("modal");
+var btn = document.querySelector(".details-button");
+var span = document.getElementsByClassName("close-button")[0];
 
-document.addEventListener('DOMContentLoaded', function() {
-    var button = document.querySelector('.details-button'); 
-    if (button) {
-        button.addEventListener('click', function() {
-            toggleImage();
-        });
-    }
-});
+btn.onclick = function() {
+    modal.style.display = "block";
+}
 
-function toggleImage() {
-    var imgSrc = "/Images/stickynoteDropdown.png";
-    var placeholder = document.getElementById("image-placeholder");
-    
-    var img = placeholder.querySelector("img");
-    if (img) {
-    
-        img.style.display = img.style.display === 'none' ? '' : 'none';
-    } else {
-        
-        img = document.createElement("img");
-        img.src = imgSrc;
-        img.alt = "Dropdown Sticky Note";
-        img.style.display = ''; 
-        img.className = 'dropdown-image';
-        placeholder.appendChild(img);
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
     }
 }
