@@ -11,6 +11,7 @@
 
 
     <link rel="stylesheet" href="styles.css">
+    <script defer src="/scriptFiles/hamburgerMenu.js"></script>
     <script defer src="/scriptFiles/detailsDropdown.js"></script>
 
     <title>Kitty Alice- Portfolio</title>
@@ -23,11 +24,20 @@
 
 <div class="header-container">
     <h1 class="header-text">Portfolio: Kitty Alice</h1>
+
     <div class="nav-links">
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="pages/aboutMe.html">About</a>
         <a href="https://github.com/AutopsyTurvy" class="nav-link">Github Profile</a>
     </div>
+
+    <button class="hamburger" aria-label="To open the navigation menu!">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+
 </div>
 
 
@@ -44,21 +54,38 @@
 
         <div class="sticky-note-image">
             <div class="card">
-                <div class="link-container">
+
+
+                <div class="image-link-container">
                     <a href="https://the-lore-of-pour.netlify.app" class="card-link">
-                        <img src="/Images/theLoreOfPour.jpeg" alt="Screenshot of The Lore of Pour Blog" class="card-image">
+                        <img class="card-image" src="/Images/theLoreOfPour.jpeg" alt="Screenshot of The Lore of Pour Blog">
                     </a>
                 </div>
+
+
                 <p class="card-title">The Lore of Pour</p>
-                <div class="card-content">
+
+
+                <div class="card-links">
                     <a href="https://the-lore-of-pour.netlify.app" class="card-link">Netlify</a>
                     <button class="details-button">Details</button>
                     <a href="https://github.com/AutopsyTurvy/The-Lore-of-Pour--Project-Exam-1.git" class="card-link">GitHub</a>
                 </div>
+
+
             </div>
         </div>
+
+
+
+
     
         <div id="image-placeholder"></div>
+
+
+
+
+
 
 <div class="sticky-note-image-2">
     <div class="card">
