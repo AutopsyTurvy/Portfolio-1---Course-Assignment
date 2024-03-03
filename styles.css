@@ -362,7 +362,7 @@ body {
     background-repeat: no-repeat; 
     background-position: center;
     width: 500px; 
-    height: 500px; 
+    height: auto; 
     box-sizing: border-box; 
     display: flex;
     justify-content:center;
