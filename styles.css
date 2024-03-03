@@ -344,7 +344,7 @@ body {
 
     .sticky-note-image, .sticky-note-image-2, .sticky-note-image-3 {
 
-        width: 90%; 
+        width: 60vw; 
         height: auto; 
         gap: 1em;
         justify-content: space-around;
@@ -357,8 +357,8 @@ body {
         z-index: 1;
         left: 0;
         top: 0;
-        width: 80%;
-        height: 80%;
+        width: 80vh;
+        height: 80vh;
         overflow: auto;
         background-color: rgba(0, 0, 0, 0.2);
     }
