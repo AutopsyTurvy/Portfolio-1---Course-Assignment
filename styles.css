@@ -528,26 +528,6 @@ body {
 
 
 
-@media (max-width: 600px) {
- 
-
-   
-.sticky-note-image, .sticky-note-image-2, .sticky-note-image-3 {
-
-    background-position: center;
-    width: 200px; 
-    height: 200px; 
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin: 1em;
-    margin-top: 0;
-  }
-
-
-}
-
-
 
 
 
