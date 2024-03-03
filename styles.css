@@ -330,6 +330,30 @@ body {
 
 
 
+@media (max-width: 768px) {
+
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+      align-content: center;
+      width: 300px;
+      margin: 0 auto;
+  }
+  
+    .sticky-note-image, .sticky-note-image-2, .sticky-note-image-3 {
+      
+      width: 100%; 
+      height: auto; 
+      box-sizing: border-box; 
+      display: flex;
+      justify-content:center;
+      align-items: center;
+
+    }
+    }
+
 
 
 
@@ -346,6 +370,15 @@ body {
     margin: 1em;
     margin-top: 0;
   }
+
+
+
+
+
+
+
+
+
 
 
 .sticky-note-image {
