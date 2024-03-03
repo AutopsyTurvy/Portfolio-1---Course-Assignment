@@ -50,6 +50,7 @@
     
 
     <div class="cards-container">
+
         <div class="sticky-note-image">
             <div class="card">
                 <div class="image-link-container">
@@ -60,17 +61,35 @@
                 <p class="card-title">The Lore of Pour</p>
                 <div class="card-links">
                     <a href="https://the-lore-of-pour.netlify.app" class="card-link">Netlify</a>
-                    <button class="details-button">Details</button>
+                    
+                    <button class="details-button" data-modal-target="modal-1">Details</button>
+
                     <a href="https://github.com/AutopsyTurvy/The-Lore-of-Pour--Project-Exam-1.git" class="card-link">GitHub</a>
                 </div>
             </div>
 
 
-            <div id="modal" class="modal">
+            <div id="modal-1" class="modal">
                 <div class="modal-content">
                     <span class="close-button">&times;</span>
-                    <h2>Modal Title</h2>
-                    <p>This is the content of the modal. You can place any text or HTML here.</p>
+                    <h3 class="modal-title">The Lore Of Pour</h3>
+                    <p class="modal-paragraph"> Our final exam of Noroff first year, 
+                        and perhaps our most extensive use of JavaScript to date. 
+                        Our brief was to create a blog site hosted by wordpress, 
+                        and to fetch the data via an API call. 
+                        The site could be on anything we chose, 
+                        but had specific pages and functionality that we were required to include- 
+                        I chose to make a peaceful, 
+                        sleepy tea blog that also sold teacups
+                        to go with the posts on serving and enjoying the perfect brew.
+                        The purpose of the site is purely informative and entertaining- 
+                        all about tea- its history, how England stole it, 
+                        its cultural, artistic and social significance, 
+                        how it has shaped countries, literature and the class systems, 
+                        its many health benefits and how to brew the perfect cup. 
+                        On top of this I had planned on adding a shop 
+                        section so you could buy the perfect cup to go with your 
+                        edification.</p>
                 </div>
             </div>
         </div>
@@ -87,10 +106,28 @@
                 <p class="card-title">Community Science Museum</p>
                 <div class="card-content">
                     <a href="https://melodious-griffin-3e41f3.netlify.app" class="card-link">Netlify</a>
-                    <button class="details-button-2">Details</button>
+                    <button class="details-button" data-modal-target="modal-2">Details</button>
                     <a href="https://github.com/AutopsyTurvy/CommunityScienceMuseum.git" class="card-link">GitHub</a>
                 </div>
             </div>
+
+            <div id="modal-2" class="modal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <h3 class="modal-title">Community Science Museum</h3>
+                    <p class="modal-paragraph"> The first exam of our school year- 
+                        This was a build of purely HTML and CSS, as we had not yet completed our JavaScript 1 module.
+                        The brief was to build a website for a community science museum for children and young adults, 
+                        to invite them to visit and display the exhibits .
+                        In its essence the exercise was to test our CSS and HTML skills- 
+                        the brief itself was a child and young person-friendly, 
+                        community science museum- 
+                        To advertise the exhibits and special events that the museum was showing, 
+                        what facilities were available for visiting schools and to let people know the location of the museum itself.</p>
+                </div>
+            </div>
+
+
         </div>
 
 
@@ -105,22 +142,44 @@
                 <p class="card-title">Game Hub</p>
                 <div class="card-content">
                     <a href="https://celebrated-platypus-88cfdb.netlify.app" class="card-link">Netlify</a>
-                    <button class="details-button-3">Details</button>
+
+                    <button class="details-button" data-modal-target="modal-3">Details</button>
+
                     <a href="https://github.com/AutopsyTurvy/GameHub-KittyAliceCase.git" class="card-link">GitHub</a>
                 </div>
             </div>
+
+            <div id="modal-3" class="modal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <h3 class="modal-title">Game Hub</h3>
+                    <p class="modal-paragraph"> Game Hub, Cross Course Project-
+                        This was our first project in the first year of our Studies- 
+                        This was initially our introduction into design and CSS, 
+                        then an exercise in stretching our JavaScript skills. 
+                        The main purpose of this site was to advertise and sell games at competitive prices, 
+                        to be able to view them and their specific details and to add them to your cart.
+                        A game purchasing site with competitive prices and smooth functionality. 
+                        An exercise in our design and JavaScript skills.</p>
+                </div>
+            </div>
         </div>
-
-
-
-
         
     </div>
     
-    <video class="video" width="100%" height="auto" autoplay loop muted>
-        <source src="https://portfolio-bubby-and-i.s3.amazonaws.com/Dream 3-2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
-    </body>
+
+    <img class="email-me" src="/Images/emailme.png" alt="Email me, and a little arrow pointing below.">
+
+    <div class="video-container">
+        <video class="video" width="100%" height="auto" autoplay loop muted>
+            <source src="https://portfolio-bubby-and-i.s3.amazonaws.com/Dream 3-2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <a class="video-button" href="pages/aboutMe.html">Email Me!</a>
+        
+    </div>
+
+
+</body>
 </html>

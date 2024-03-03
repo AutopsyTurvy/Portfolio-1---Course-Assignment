@@ -34,7 +34,6 @@ body {
 
 
 .hamburger {
-    
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -67,7 +66,6 @@ body {
 
 
 .nav-link {
-
   position: relative;  
   text-decoration: none;
   color: #e6e9e9;
@@ -151,24 +149,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .line {
     max-width: 85%;
 }
@@ -184,9 +164,7 @@ body {
 
 
 
-
 .Projects-so-far-header {
-
     color: #e6e9e9;
     font-family: "Jost", sans-serif;
     font-weight: 300;
@@ -195,20 +173,95 @@ body {
 
 
 
-.video {
-    right: 0;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    height: auto;
-    width: 100%;
-    padding: 0;
+
+.email-me {
+
+    height: 6em;
+    display: block;
+    margin: 0 auto;
+  
 }
 
 
 
-/* Card Styles --------------------------------------------------------------------------*/
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 
+}
+
+.video {
+   
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin-top: -120px;
+}
+
+
+
+@media (max-width: 768px) {
+.video {
+   
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin-top: -170px;
+}
+  }
+
+
+
+
+
+.video-button {
+
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    z-index: 10;
+    padding: 10px 20px;
+    color: #e6e9e9;
+    background-color: #292c2e;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+}
+
+
+.video-button:hover {
+    background: url('/Images/linkCircle.png') no-repeat center center;
+    background-size: cover;
+    
+}
+
+.video-button::after {
+    content: '';
+    width: calc(100% + 60px); 
+    height: calc(100% + 60px); 
+    background: url('/Images/linkCircle.png') no-repeat center center;
+    background-size: cover;
+    left: -30px; 
+    bottom: -30px; 
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.video-button:hover::after {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+/* Card Styles --------------------------------------------------------------------------*/
 
 
 
@@ -236,10 +289,24 @@ body {
 
 
 
+@media (max-width: 700px) { 
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 70%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+}
+
+
 
 
 .sticky-note-image, .sticky-note-image-2, .sticky-note-image-3 {
-
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -250,6 +317,7 @@ body {
     justify-content:center;
     align-items: center;
     margin: 1em;
+    margin-top: 0;
   }
 
 
@@ -285,6 +353,8 @@ body {
     align-content: center;
 }
 
+
+
 .image-link-container {
     display: flex;
     justify-content: center;
@@ -292,6 +362,8 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+
 
 .card-image {
     max-width: 100%;
@@ -346,8 +418,6 @@ body {
 
 
 
-
-
 .details-button, .details-button-2, .details-button-3 {
     color: #e6e9e9;
     font-size: 1.2em;
@@ -364,7 +434,6 @@ body {
   .details-button:hover, .details-button-2:hover, .details-button-3:hover {
     background: url('/Images/linkCircle.png') no-repeat center center;
     background-size: contain;
-   
   }
 
 
@@ -382,11 +451,29 @@ body {
 }
 
 
-.modal-content {
 
+.modal-title {
+    font-family: "Coming Soon", cursive;
+    color: #e6e9e9;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+.modal-paragraph {
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    color: #e6e9e9;
+    font-size: 1em;
+}
+
+
+
+.modal-content {
     background-color: #292c2e;
     margin: 15% auto;
-    padding: 10px;
+    padding: 3em;
     border: 1px solid #e6e9e9;
     width: 80%;
 }
@@ -410,6 +497,11 @@ body {
     background-color: #e6e9e9;
 
 }
+
+
+
+
+
 
 
 

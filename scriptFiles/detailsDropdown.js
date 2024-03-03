@@ -3,22 +3,40 @@
 
 // Trying a modal instead of a dropdown image..
 
-// detailsDropdown.js :
 
-var modal = document.getElementById("modal");
-var btn = document.querySelector(".details-button");
-var span = document.getElementsByClassName("close-button")[0];
 
-btn.onclick = function() {
-    modal.style.display = "block";
+function openModal(modalId) {
+    var modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = "block";
+    }
 }
 
-span.onclick = function() {
-    modal.style.display = "none";
-}
 
-window.onclick = function(event) {
-    if (event.target == modal) {
+function closeModal(modalId) {
+    var modal = document.getElementById(modalId);
+    if (modal) {
         modal.style.display = "none";
     }
 }
+
+
+document.querySelectorAll("[class^='details-button']").forEach(button => {
+    button.addEventListener("click", function() {
+        var modalId = this.getAttribute("data-modal-target");
+        openModal(modalId);
+    });
+});
+
+
+document.querySelectorAll(".close-button").forEach(closeButton => {
+    closeButton.addEventListener("click", function() {
+        this.closest(".modal").style.display = "none";
+    });
+});
+
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+        event.target.style.display = "none";
+    }
+};
