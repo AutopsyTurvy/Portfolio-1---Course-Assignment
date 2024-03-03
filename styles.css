@@ -265,7 +265,7 @@ body {
 
 @media (max-width: 768px) {
     .video {
-        height: auto; 
+
         width: 100%;
         padding: 0;
         margin-top: 0; 
@@ -283,7 +283,21 @@ body {
         width: auto; 
         left: auto; 
         transform: none; 
+        margin: 0 auto;
+        padding: 30px;
     }
+
+    .video-button:hover {
+        background: url('/Images/linkCircle.png') no-repeat center center;
+        background-size: cover;
+        
+    }
+
+    .video-button:hover::after {
+        opacity: 1; 
+    }
+
+
 }
 
 
