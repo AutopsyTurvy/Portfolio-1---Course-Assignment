@@ -11,40 +11,36 @@
 
 Our portfolio was a functional reflection project- and the first where we were introduced to the idea of README.md files.
 This piece of work was to combine all of our significant projects so far, and display them on a page we had built and designed as a portfolio.
-Though my design was an experiment, and one i was admittedly a little insecure about
-
-
-
-
-This was our first project in the first year of our Studies-
-This was initially our introduction into design and CSS, then an exercise in stretching our JavaScript skills.
-The main purpose of this site was to advertise and sell games at competitive prices, to be able to view them and their specific details and to add them to your cart.
+Though my design was an experiment, and one I was admittedly a little insecure about- I do enjoy that this piece of work was to illustrate how we are as people and coders.
+The portfolio was built to be able to add more work as time passed and the volume of our work increased. 
 
 
 Our Brief:
 
-    (GameHub is an online shop where users can purchase computer games. This gaming marketplace lets you buy tons of video games online for any device.
-    GameHub is a competitively priced website with a huge range of games.
-    Slogan
-    The universe of games
-    Target audience
-    Gamers
-    Aged 18 to 25 who are interested in computer games, and would either like to purchase games or would like to sell games they have finished playing.
-    Unique selling points
-    For a user buying games: It is an online game store that provides digital games to gamers at a competitive price.
-    GameHub allows you to purchase a wide selection of games, at a competitive price.
-    Site architecture
-    Home
-    List of games
-    A games page showing the product details (product details such as the description of the product, price and add to cart button)
-    Checkout page
-    Checkout success
-    About
-    Contact)
+    Brief
+
+    In this assignment, you will be documenting three prior submissions from the first year:
+    Your cross-course project
+    Semester Project 1
+    Project Exam 1
+    You will be creating a README.md file at the root of each of these projects and then documenting the submissions following a given format.
+
+    You will then also be creating a README.md for your own personal GitHub profile.
+
+    Lastly, you will be creating a portfolio webpage that lists these 3 projects.
+
+    This page must:
+    List the 3 projects as cards
+    Each card must have:
+    the title of the project,
+    a description,
+    a screenshot of how the project looks when running,
+    a link to the GitHub repo and a live site if it is online.
 
 ## Site purpose:
 
-A game purchasing site with competitive prices and smooth functionality. You should be able to see a full display of the games on offer, and them add them to a semi functioning cart. (Main purpose-- to buy games.)
+To show links to all of our work so far, as a page a small "us", and a great big "This is what we do!".
+Here's looking at you Neil Amstrong.
 
 
 
@@ -56,27 +52,9 @@ Our home page was meant to introduce the site adequately, so at a glance it was 
 Thous would be via a title or to introduce the games- i tried to do both.
 This page should be easily to navigate through, and show clear options to view ore details about the games being sold. 
 
--- Games 
+-- About Page 
 
 The user should have the option to click on one of the games displayed either on the home page, or a page where a selection of the games can be viewed, and be taken to a page the displays more information- 
-
--- Info page
-
-The page where the user can see more of the pertinent details about their prospective purchase, the price, if said game is on sale, how many players, the genre and a descriptive paragraph about the gameplay and adventure ahead.
-
--- buy now
-
-Upon clicking the "Buy Now"/ "Add to cart" button on either the home page or the product details page, the number next to the cart icon should increase. 
-Whwn clicking on the cart icon itself, there should be visible a list of the games (or an empty cart if you have not selected any of the games), their prices, a running total and a "complete purchase" button that accurately simulates the buying process.
-
-
--- Contact Page
-
-This page should have form validation, and simulate the process of emailing the hosts of the site.
-
--- Other Pages
-
-For the functionality of the site the other pages are not integral- should inclide an "About us" page.
 
 
 ---
@@ -87,7 +65,7 @@ For the functionality of the site the other pages are not integral- should incli
 No Tech used so far- Pure CSS, HTML, and JavaScript- will update if this changes
 
 
-<img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" width="50" height="50"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" width="50" height="50"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg" width="50" height="50"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg" width="50" height="50">
+<img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" width="50" height="50"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" width="50" height="50"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg" width="50" height="50">
 
 
 
