@@ -1,14 +1,20 @@
 
 ---
-
-![Image 25-02-2024 at 22 22 (1)](https://github.com/AutopsyTurvy/GameHub-KittyAliceCase/assets/102550358/f9d2f484-ccfe-4188-8149-acf7be130035)
-
 ![Screenshot of the working home page](./Images/readmescreenshot1.jpg)
-![Screenshot of the working home page](./Images/readmescreenshot2.jpg)
+![Screenshot of the lower working home page](./Images/readmescreenshot2.jpg)
 
 ---
 
-# Game Hub, Cross Course Project- 
+![Drawing of a pencil, wsa to be used as a divider ont he home page but was ultimately not utilized](./Images/pencilDivider.png)
+
+# Portfolio- Documenting our work so far: 
+
+Our portfolio was a functional reflection project- and the first where we were introduced to the idea of README.md files.
+This piece of work was to combine all of our significant projects so far, and display them on a page we had built and designed as a portfolio.
+Though my design was an experiment, and one i was admittedly a little insecure about
+
+
+
 
 This was our first project in the first year of our Studies-
 This was initially our introduction into design and CSS, then an exercise in stretching our JavaScript skills.
