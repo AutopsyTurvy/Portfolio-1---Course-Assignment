@@ -48,13 +48,13 @@ Here's looking at you Neil Amstrong.
 
 -- Home Page
 
-Our home page was meant to introduce the site adequately, so at a glance it was obvious what the site did- 
-Thous would be via a title or to introduce the games- i tried to do both.
-This page should be easily to navigate through, and show clear options to view ore details about the games being sold. 
+Our home page should have our previous pieces of work as the main focus- our work is the crownpiece of this assignment- they should be displayed as three cards wth specific pieces of information- details on the work, the netlify link and a link to the Github page. 
+Anything else we add to this page is our own prerogative- I made an animation of "me".
+
 
 -- About Page 
 
-The user should have the option to click on one of the games displayed either on the home page, or a page where a selection of the games can be viewed, and be taken to a page the displays more information- 
+This page was not required, and i debated about including it, but decided to have it hold some basic information about me and my journey as a coder- almost the same information as is included on my personal readme file on my github profile.
 
 
 ---
@@ -62,7 +62,12 @@ The user should have the option to click on one of the games displayed either on
 
 ** Note **
 
-No Tech used so far- Pure CSS, HTML, and JavaScript- will update if this changes
+No Tech used so far- Pure CSS and HTML- will update if this changes.
+
+Amazon used to host the animation, but the animation was drawn and executed by me.
+(https://portfolio-bubby-and-i.s3.amazonaws.com/Dream%203-2.mp4)
+
+
 
 
 <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" width="50" height="50"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" width="50" height="50"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg" width="50" height="50">
@@ -97,8 +102,9 @@ To run the app, run the following commands:
 Contributing
 
 
-Contributions are welcome, but I would request that the invidicual that does so, clones the code and adds notes so that I can review any changes before they are comitted to the project permanently. Thank you! 
+As this is my portfolio, contributions are still welcome, but only in regards to the structure or design of the page, rather than the work on them. Thank you!
 
+Any suggestions will be happily taken into account- feel free to message me!
 ---
 
 Contact:
